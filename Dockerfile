@@ -1,6 +1,6 @@
-FROM node:8.4
+FROM node:10.0
 
-MAINTAINER blackholegalaxy
+MAINTAINER chaitanyasm
 
 RUN apt-get -qqy update \
   && apt-get -qqy install \
